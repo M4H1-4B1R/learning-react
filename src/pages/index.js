@@ -1,9 +1,11 @@
 import React from "react";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to my react projects</h1>
+    <div className="home-container">
+      <h1>Awesome Neovim</h1>
+      <h4>Collection of awesome neovim plugins.</h4>
     </div>
   );
 };
